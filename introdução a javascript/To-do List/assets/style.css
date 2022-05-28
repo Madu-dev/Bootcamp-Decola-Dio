@@ -1,0 +1,54 @@
+* {
+    font-family: cursive;
+}
+
+body {
+    background: #f3f03b;
+    text-align: center;
+}
+
+.logo {
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: #ffffff;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.telaPrincipal{
+    margin-top: 50px;
+}
+
+.telaPrincipal #novaTarefa {
+    border-radius: 3px;
+}
+
+#new-task-i:focus {
+    background: #c8d3d2;
+}
+
+#adicionarTarefa {
+    background: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#add-task:hover {
+    background: rgb(190, 194, 201);
+}
+
+.tasks{
+    margin-left: 25%;
+    margin-top: 20px;
+    width: 50%;
+    border-radius: 5px;
+    background: #c8d3d2;
+    font-size: 18px;
+    text-transform: initial;
+}
+
+:checked +.msg{
+    text-decoration: line-through;
+    color: #27302f;
+}
